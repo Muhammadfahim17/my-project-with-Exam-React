@@ -1,0 +1,421 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #1E3C72;
+  /* height: 50vh; */
+  background-image: url('./');
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.allheader {
+  background-color: #1E3C72;
+  height: 90vh;
+}
+
+.textheader {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  /* font-weight: bold; */
+}
+
+.header button {
+  background: none;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+.logoheader {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.centerheader {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  justify-content: center;
+  gap: 150px;
+}
+
+.texcentertheader {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 500px;
+  gap: 15px;
+}
+
+.texcentertheader h1 {
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.texcentertheader p {
+  color: white;
+  line-height: 35px;
+  font-family: sans-serif;
+  /* font-weight: bold; */
+}
+
+.btncenterheader {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 10px 0px;
+}
+
+.btncenterheader button {
+  padding: 12px 30px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.meet {
+  margin-top: 80px;
+  font-family: sans-serif;
+}
+
+.cartmeet {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0px;
+  align-items: center;
+}
+
+.telefoncenter {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+}
+
+.smart {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  font-family: sans-serif;
+  box-shadow: 0px 0px 10px grey;
+  width: 480px;
+  height: 160px;
+  border-radius: 20px;
+  padding: 15px;
+  z-index: 1;
+}
+
+.texttelefon {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  z-index: 1;
+}
+
+.asaidtelefon {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  gap: 50px;
+  z-index: 1;
+}
+
+.vector1 {
+  position: absolute;
+  top: 195%;
+}
+
+.totalappcart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.appcenter {
+  margin-top: 100px;
+  font-family: sans-serif;
+  margin-bottom: 180px;
+}
+
+.jacpot {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.textjacpot {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.box {
+  height: 75vh;
+  background-color: #1E3C72;
+  color: white;
+  font-family: sans-serif;
+  padding: 50px 0px;
+  margin-bottom: 120px;
+}
+
+.totalcartbox {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+
+.arrow {
+  position: absolute;
+  /* background-color: black; */
+  top: 580%;
+  left: 15%;
+}
+
+.totalcartclient {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0px;
+}
+
+.arrow2 {
+  margin-left: 50%;
+  margin-bottom: 120px;
+}
+
+.secure {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  align-items: center;
+  z-index: 5;
+  margin-bottom: 200px;
+}
+
+.textsecure {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: start;
+}
+
+.bg2 {
+  /* background-color: black; */
+  width: 80%;
+  position: absolute;
+  top: 758%;
+  left: 5%;
+  z-index: -1;
+}
+
+.plan {
+  height: 100vh;
+  background-color: #1E3C72;
+  color: white;
+  padding: 90px 0px;
+  margin-bottom: 100px;
+ 
+}
+
+.totalcartpaln {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.plancart1 {
+  width: 480px;
+  height: 600px;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: start;
+  gap: 55px;
+}
+
+.textplan {
+  display: flex;
+  gap: 25px;
+}
+
+.recom {
+  position: absolute;
+  left: 70%;
+  top: 924%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* background-color: black; */
+}
+
+.footer {
+  width: 90%;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.totalcartfooter {
+  width: 90%;
+  margin: auto;
+  margin: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin-left: 15%;
+}
+
+.cart1footer {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  width: 80%;
+  border-bottom: 2px solid gray;
+  padding-bottom: 20px;
+}
+
+.textfootercart {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.aboutinfo {
+  width: 75%;
+  display: flex;
+  /* border: 2px solid; */
+  margin: auto;
+  margin-top: 200px;
+  font-family: sans-serif;
+  margin-bottom: 100px;
+  border-top: 2px solid gray;
+  /* margin-top: 50px; */
+  padding-top: 80px;
+}
+
+.totalcartabout {
+  display: flex;
+  /* justify-content: center; */
+  margin: auto;
+  gap: 150px;
+}
+
+.cartabout1 {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.cartabout1 h2 {
+  color: #0F2137;
+}
+
+.cartabout1 p {
+  color: #02073E;
+  /* font-weight: bold; */
+}
+
+.rec {
+  position: absolute;
+  left: 70%;
+  top: 917%;
+}
+
+.q1 {
+  /* background-color: wheat; */
+  position: absolute;
+  top: 0%;
+  height: 80vh;
+  left: 30%;
+}
+
+.q2 {
+  position: absolute;
+  top: 20%;
+  height: 70vh;
+  left: 54%;
+}
+
+.q3 {
+  position: absolute;
+  top: 0%;
+  width: 20%;
+}
+
+.q4 {
+  position: absolute;
+  top: 45%;
+  width: 18%;
+}
+
+.q5{
+  position: absolute;
+  top: 24%;
+  width: 20%;
+  left: 80%;
+}
+
+.q6{
+  position: absolute;
+  width: 18%;
+  top: 0%;
+  left: 82%;
+  height: 25vh;
+}
+
+.q7{
+  position: absolute;
+  top: 0%;
+  width: 15%;
+  left: 63%;
+  top: 20%;
+}
+
+.w1 {
+  /* background-color: black; */
+  position: absolute;
+  top: 885%;
+  left: 11%;
+}
+
+.w4 {
+  position: absolute;
+  top: 982%;
+  z-index: 5;
+  left: 70%;
+  width: 25%;
+}
+
+.w3 {
+  /* background-color: black; */
+  position: absolute;
+  top: 937%;
+  right: 89%;
+}
+
